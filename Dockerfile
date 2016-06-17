@@ -6,5 +6,5 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app
 RUN npm install && npm run build
 
-EXPOSE 5000
+EXPOSE 8080
 CMD [ "npm", "start" ]
